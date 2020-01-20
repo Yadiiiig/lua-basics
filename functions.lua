@@ -28,9 +28,9 @@ function Example(exampleOne) -- We create a function named Example, and it takes
         else -- If it's not lower then 20
             print("The number is higher then 20")
             print("The number is " .. testFunction)
-        end
-    end
-end
+        end -- Close if statement
+    end -- Close if statement
+end -- Close function
 
 Example(5) --This will print: The number is lower then 20, The number is 5
 Example("Hello") --This will print: This is a string
